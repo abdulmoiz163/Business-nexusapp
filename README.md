@@ -1,30 +1,56 @@
-# Project setup guide
+# Business Nexus
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+Business Nexus is a professional networking platform that connects entrepreneurs and investors, facilitating collaboration and business partnerships.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/abdulmoiz012-5536s-projects/v0-project-setup-guide)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/bJyaQlPdLEr)
+## Table of Contents
+
+- [Overview](#overview)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Environment Variables](#environment-variables)
+- [Project Structure](#project-structure)
+- [API Documentation](#api-documentation)
+- [Deployment](#deployment)
+- [Contributing](#contributing)
+- [License](#license)
 
 ## Overview
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+Business Nexus helps entrepreneurs and investors find each other, collaborate, and build successful ventures together. The platform provides tools for creating professional profiles, discovering potential partners, sending collaboration requests, and communicating in real-time.
 
-## Deployment
+## Features
 
-Your project is live at:
+- **User Authentication**: Secure registration and login system with JWT
+- **Role-Based Access**: Separate interfaces for entrepreneurs and investors
+- **Profile Management**: Create and edit detailed professional profiles
+- **Discovery System**: Find relevant entrepreneurs or investors
+- **Collaboration Requests**: Send and respond to partnership requests
+- **Dashboard**: Personalized dashboard with relevant metrics and activities
+- **Responsive Design**: Fully responsive interface that works on all devices
 
-**[https://vercel.com/abdulmoiz012-5536s-projects/v0-project-setup-guide](https://vercel.com/abdulmoiz012-5536s-projects/v0-project-setup-guide)**
+## Tech Stack
 
-## Build your app
+### Frontend
+- Next.js (App Router)
+- TypeScript
+- Tailwind CSS
+- Shadcn UI Components
+- Axios for API requests
 
-Continue building your app on:
+### Backend
+- Node.js
+- Express.js
+- MongoDB with Mongoose
+- JWT for authentication
+- RESTful API architecture
 
-**[https://v0.dev/chat/projects/bJyaQlPdLEr](https://v0.dev/chat/projects/bJyaQlPdLEr)**
+## Getting Started
 
-## How It Works
+### Prerequisites
 
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+- Node.js (v16+)
+- npm or yarn
+- MongoDB (local instance or MongoDB Atlas)
